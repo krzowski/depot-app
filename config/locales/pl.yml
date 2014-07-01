@@ -1,0 +1,48 @@
+pl:
+  layouts:
+    application:
+      title:     "Pragmatyczna Księgarnia"
+      home:      "Dom"
+      questions: "Pytania"
+      news:      "Wiadomości"
+      contact:   "Kontakt"
+
+  store: 
+    index:
+      title_html: "Pragmatyczny Katalog"
+      add_html:   "Wrzuć do koszyka"
+
+  carts:
+    cart:
+      title:    "Twój koszyk"
+      empty:    "Wyczyść koszyk"
+      checkout: "Złóż zamówienie"
+
+  number:
+    currency:
+      format:
+        unit:      "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format:    "%n&nbsp;%u"
+
+  errors:
+    template:
+      body:        "Wypełnij poprawnie zaznaczone pola:"
+      header:
+        one:       "Błąd uniemożliwił zapinsanie %{model}"
+        other:     "%{count} błędów uniemożliwiło zapisanie %{model}"
+
+  orders:
+    new:
+      legend:       "Proszę wypełnić formularz dostawy"
+    form:
+      name:         "Imię"
+      address_html: "Adres"
+      email:        "E-mail"
+      pay_type:     "Forma zapłaty"
+      pay_prompt_html: "Zaznacz formę zapłaty"
+      submit:       "Zrealizuj zamówienie"
+
+  thanks:          "Dziękujemy za zakup"
